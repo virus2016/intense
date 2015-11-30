@@ -1,6 +1,6 @@
 {
   "name": "intense",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "description": "Create cpu intensive functions without bothering the event loop",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/virus2016/intense/issues"
   },
-  "homepage": "https://github.com/virus2016/intense#readme"
+  "homepage": "https://github.com/virus2016/intense#readme",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
 }
