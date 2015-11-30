@@ -65,16 +65,16 @@ function createWorker(config) {
 
 // for (var i = 0; i < 100; i++) {
 //
-//   queueJob({
-//       function: 'upperCase.test',
-//       data: 'testing' + i
-//     })
-//     .then(function(response) {
-//       console.log(response);
-//     })
-//     .catch(function(err) {
-//       console.log(err);
-//     });
+  // queueJob({
+  //     function: 'upperCase.test',
+  //     data: 'testing' + i
+  //   })
+  //   .then(function(response) {
+  //     console.log(response);
+  //   })
+  //   .catch(function(err) {
+  //     console.log(err);
+  //   });
 //
 //   //console.log(i)
 //
