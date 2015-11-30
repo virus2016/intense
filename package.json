@@ -1,0 +1,25 @@
+{
+  "name": "intense",
+  "version": "0.0.1",
+  "description": "Create cpu intensive functions without bothering the event loop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virus2016/intense.git"
+  },
+  "keywords": [
+    "node",
+    "cpu",
+    "process",
+    "stress"
+  ],
+  "author": "Calum MacRae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virus2016/intense/issues"
+  },
+  "homepage": "https://github.com/virus2016/intense#readme"
+}
