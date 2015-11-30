@@ -1,8 +1,18 @@
-var Q = require('q');
-
 process.on('message', function(m) {
-  var fn = require('./' + m.function);
-  if (typeof fn === 'function') {
-    process.send(fn(m.data));
+  try {
+    var fn = require('./' + m.function);
+    if (typeof fn === 'function') {
+      process.send({
+        err: undefined,
+        result: fn(m.data)
+      });
+    }
+  } catch (e) {
+    process.send({
+      err: 'can not find function'
+    });
+  } finally {
+
   }
+
 });

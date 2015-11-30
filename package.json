@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/virus2016/intense#readme",
   "dependencies": {
+    "dank-do-while": "^0.1.2",
+    "double-ended-queue": "^0.9.7",
     "q": "^1.4.1"
   }
 }
