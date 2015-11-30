@@ -9,6 +9,8 @@ var workers = 0;
 var timeCheck = 2500;
 var workInterval;
 
+module.exports = queueJob;
+
 function queueJob(job) {
   var deferred = Q.defer();
 
