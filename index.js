@@ -39,7 +39,7 @@ function doWork() {
 
 function createWorker(config) {
   workers += 1;
-  var child = cp.fork('./worker');
+  var child = cp.fork(__dirname + '/worker');
   var time = {
     started: (new Date).getTime()
   };
